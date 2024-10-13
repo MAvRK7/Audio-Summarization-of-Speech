@@ -1,6 +1,6 @@
 # Audio Summarization of Speech Signals in Noisy Real-Time Environment using Deep Learning-based Blind Source Separation
 
-Speech signal processing in noisy, real-time envi-
+Speech signal processing in noisy, real-time envi
 ronments poses significant challenges due to overlapping au
 dio sources and diverse noise types. This work presents a
 deep learning-based solution for summarizing speech signals
