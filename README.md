@@ -1,6 +1,6 @@
 # Audio Summarization of Speech Signals in Noisy Real-Time Environment using Deep Learning-based Blind Source Separation
 
-his work presents an advanced pipeline for audio source separation,
+This work presents an advanced pipeline for audio source separation,
 transcription, and summarization, aimed at enhancing the clarity and intelligibility of speech in multi-speaker environments. The proposed model combines
 SepFormer, ConvTasNet, and adaptive noise reduction techniques to isolate
 speech from two speakers, reduce background noise, and amplify the primary
