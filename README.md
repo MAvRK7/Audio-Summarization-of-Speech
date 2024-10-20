@@ -2,7 +2,7 @@
 
 In multi-speaker environments, intelligibility may be a concern when
 speakers overlap. This work presents an advanced pipeline to first separate audio
-and then give a summary of the conversation. The proposed model combines Sep-
+and then give a summary of the conversation. The proposed model combines Sep
 Former, ConvTasNet, and adaptive noise reduction techniques to isolate speech
 from two speaker mixed audio, reduce background noise, and amplify the pri
 mary speaker’s voice. This hybrid approach gives better results than each of the
