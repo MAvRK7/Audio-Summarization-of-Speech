@@ -1,20 +1,21 @@
-# Enhancing Speech Clarity Through Sequential Audio Source Separation, Adaptive Noise Reduction, and Summarization
+# Multi-Speaker Speech Processing in Noisy Environments: A Hybrid Model for Source Separation and Summarization
 
-This work presents an advanced pipeline for audio source separation,
-transcription, and summarization, aimed at enhancing the clarity and intelligibility of speech in multi-speaker environments. The proposed model combines
-SepFormer, ConvTasNet, and adaptive noise reduction techniques to isolate
-speech from two speakers, reduce background noise, and amplify the primary
-speaker’s voice. In contrast to existing models that employ either SepFormer or
-ConvTasNet alone, this hybrid approach achieves superior performance without
-significantly increasing computational complexity. Once trained, the system delivers rapid, accurate audio separation and transcription. Google’s Speech-to-Text
-API is utilised for transcription, followed by a summarization phase implemented
-using a pre-trained BART model fine-tuned on the CNN Daily Mail dataset. Performance evaluation using standard metrics, including Signal-to-Distortion Ratio
-(SDR), Signal-to-Interference Ratio (SIR), and Signal-to-Artifacts Ratio (SAR),
-demonstrates the effectiveness of the proposed model. The system yields high
-SDR and SIR scores, indicating its capability in improving speech clarity while
-maintaining efficiency. This approach holds promise for various applications such
-as meeting transcription, voice command systems, and real-time communication
-enhancement.
+In multi-speaker environments, intelligibility may be a concern when
+speakers overlap. This work presents an advanced pipeline to first separate audio
+and then give a summary of the conversation. The proposed model combines Sep-
+Former, ConvTasNet, and adaptive noise reduction techniques to isolate speech
+from two speaker mixed audio, reduce background noise, and amplify the pri
+mary speaker’s voice. This hybrid approach gives better results than each of the
+two models used on their own, without significant increase in computational cost.
+Once trained, the system delivers rapid, accurate audio separation and transcrip
+tion. Once separated, for transcipting the audio, Google’s Speech-to-Text API
+is utilised. This is followed by a summarization phase implemented using a pre-
+trained BART model fine-tuned on the CNN Daily Mail dataset. Performance
+evaluation is done using standard metrics, including Signal-to-Distortion Ratio
+(SDR), Signal-to-Interference Ratio (SIR), and Signal-to-Artifacts Ratio (SAR)
+and it demonstrates the effectiveness of the proposed model. The model yields
+an average SDR of 24.6, average SIR of 24.5 and an average SAR of 24.5 which
+shows its capability in improving speech clarity while maintaining efficiency.
 
 Keywords: Audio source separation, SepFormer, ConvTasNet, Adaptive noise
 reduction, Audio transcription, Summarization
