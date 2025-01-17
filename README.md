@@ -20,4 +20,4 @@ shows its capability in improving speech clarity while maintaining efficiency.
 Keywords: Audio source separation, SepFormer, ConvTasNet, Adaptive noise
 reduction, Audio transcription, Summarization
 
-This project has been submitted to the International Conference on Signal Processing and Integrated Networks (SPIN 2025) and is under review
+This project has been accepted in the International Conference on Signal Processing and Integrated Networks (SPIN 2025) 
