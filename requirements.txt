@@ -1,0 +1,18 @@
+# requirements.txt
+torch>=2.1
+torchaudio>=2.1
+librosa>=0.10.1
+soundfile>=0.12.1
+noisereduce>=3.0.0
+numpy>=1.24
+scipy>=1.11
+tqdm>=4.66
+transformers>=4.43
+sentencepiece>=0.2.0
+accelerate>=0.33
+google-cloud-speech>=2.26
+protobuf>=4.25.3
+mir_eval>=0.7
+museval>=0.4.0
+speechbrain>=0.5.16
+asteroid>=0.7.0
