@@ -1,0 +1,48 @@
+# config.yaml
+audio:
+  target_sr: 8000
+  chunk_seconds: 1.0
+  normalize_peak: 0.99
+
+models:
+  sepformer:
+    backend: speechbrain            # ["speechbrain", "local"]
+    source: speechbrain/sepformer-wsj02mix
+    savedir: pretrained_models/sepformer-wsj02mix
+    device: cuda                    # ["cuda", "cpu"]
+
+  convtasnet:
+    backend: asteroid               # ["asteroid", "local", "disabled"]
+    source: JorisCos/ConvTasNet_Libri2Mix_sep_noisy
+    device: cuda
+
+noise_reduction:
+  enabled: true
+  prop_decrease: 0.9
+  stationary: false
+  n_fft: 1024
+  hop_length: 256
+
+stt:
+  enabled: true
+  language_code: en-US
+  sample_rate_hz: 8000
+  model: latest
+
+summarization:
+  enabled: true
+  model_name: facebook/bart-large-cnn
+  max_input_chars: 6000
+  chunk_overlap: 200
+  gen_kwargs:
+    max_length: 180
+    min_length: 60
+    do_sample: false
+
+evaluation:
+  enabled: true
+  # For SDR/SIR/SAR you need reference clean sources (optional paths)
+  ref_s1: ""
+  ref_s2: ""
+  write_csv: true
+  output_csv: evaluation/results.csv
