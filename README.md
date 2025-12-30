@@ -24,7 +24,7 @@ The system integrates:
 
 ## 🛰 Conference & Publication
 - **Accepted at**: *International Conference on Signal Processing and Integrated Networks (SPIN 2025)*
-- **Published in**: *Lecture Notes in Electrical Engineering* (Springer)
+- **Published in**: *Lecture Notes in Electrical Engineering* (Springer) https://link.springer.com/chapter/10.1007/978-981-96-9967-4_12
 
 ---
 
