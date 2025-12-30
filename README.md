@@ -1,4 +1,4 @@
-# 🎙️ MAvRK7 — Multi‑Speaker Speech Processing in Noisy Environments
+# 🎙️ Multi‑Speaker Speech Processing in Noisy Environments
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)]()
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange)]()
@@ -8,7 +8,7 @@
 ---
 
 ## 📌 Overview
-**MAvRK7** is a hybrid speech processing pipeline designed to:
+This is a hybrid speech processing pipeline designed to:
 1. **Separate** overlapping speech from noisy, multi‑speaker audio
 2. **Transcribe** each speaker’s voice
 3. **Summarize** the conversation
